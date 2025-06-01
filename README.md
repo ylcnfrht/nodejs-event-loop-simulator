@@ -51,15 +51,15 @@ eventLoop.tick();
 
 ### 🔄 Supported Phases and Methods
 ```
-Phase	                     Method
-Next Tick	             queueNextTick(cb)
-Microtask		         queueMicrotask(cb)
-Timer		                 queueTimer(cb)
-Pending Callback	 queuePendingCallback(cb)
-Idle/Prepare		     queueIdlePrepare(cb)
-Poll		         	         queuePoll(cb)
-Check	 	                 queueCheck(cb)
-Close	 	                 queueCloseCallback(cb)
+Phase ------------------------ Method
+Next Tick	-------------------- queueNextTick(cb)
+Microtask -------------------- queueMicrotask(cb)
+Timer ------------------------ queueTimer(cb)
+Pending Callback ------------- queuePendingCallback(cb)
+Idle/Prepare ----------------- queueIdlePrepare(cb)
+Poll ------------------------- queuePoll(cb)
+Check ------------------------ queueCheck(cb)
+Close ------------------------ queueCloseCallback(cb)
 ```
 
 ### 🎯 Purpose
